@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans&display=swap');
 header {
 
     color: #254E70;
@@ -5,13 +7,13 @@ header {
     padding: 20px;
   }
   
-  h2 {
-    font-family: 'Roboto';
+  h1,h2,h3,h4 {
+    font-family: 'Roboto','Oswald';
     color: #254E70;
   }
   
   p {
-    font-family: sans-serif;
+    font-family: 'sans-serif' ,'Open Sans';
     color: #333;
   }
   
