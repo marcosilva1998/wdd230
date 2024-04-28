@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans&display=swap');
+
+header {
+
+    color: #254E70;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1,h2,h3,h4 {
+    font-family: 'Roboto','Oswald';
+    color: #254E70;
+  }
+  
+  p {
+    font-family: 'sans-serif' ,'Open Sans';
+    color: #333;
+  }
+  
+ 
+  img {
+    max-width: 150px;
+    display: block;
+    
+  }
+
+.wireframe-image{
+    display: flex;
+    align-items: center;
+}
