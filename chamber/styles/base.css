@@ -6,12 +6,12 @@
     box-sizing: border-box;
 }
 header,footer,nav{
-    background-color: #254E70;
+    background-color: #3d8bca;
     font-family: 'Roboto', sans-serif;
 }
 
 .navigation {
-	background-color: #254E70; 
+	background-color: #3d8bca; 
     display: flex;
 	flex-direction: column;
 	list-style: none;
