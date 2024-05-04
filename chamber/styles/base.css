@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header,footer,nav{
+    background-color: #254E70;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation {
+	background-color: #254E70; 
+    display: flex;
+	flex-direction: column;
+	list-style: none;
+} 
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation ul li a {
+    color: #333;
+    display: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+    border: 2px solid black;
+    margin: 2px; 
+
+}
+.open ul li a {
+	display: block;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.navigation ul li a:active {
+    background-color: #2eb386;
+}
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+ 	position: absolute;
+    top: 15px;
+	right: 15px;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "X";
+}
+
+#hero_img{
+    width:100%;
+    height:450px;
+}
+
+
+#cards {
+    display: flex;
+    flex-direction: column;
+}
+.events_card, .weather_card, .spotlights_card {
+    width: 100%;
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    border-radius: 8px; 
+    margin-bottom: 10px;
+}
