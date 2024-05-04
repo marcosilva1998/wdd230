@@ -24,14 +24,14 @@ nav {
     text-align: center;
 }
 #cards {
-    flex-direction: row; /* Muestra las tarjetas una debajo de la otra */
-    margin-top: 20px; /* Espacio superior entre las tarjetas y el contenido anterior */
+    flex-direction: row; 
+    margin-top: 20px; 
 }
 
 .events_card, .weather_card, .spotlights_card {
 
-    padding: 20px; /* Espaciado interno de las tarjetas */
-    margin-right: 20px; /* Margen derecho entre las tarjetas */
+    padding: 20px; 
+    margin-right: 20px; 
 
 }
 
