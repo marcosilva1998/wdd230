@@ -35,4 +35,13 @@ nav {
 
 }
 
+footer{
+    
+    flex-direction: row;
+
+}
+
+footer > *{
+    margin-right: auto;
+}
 }
