@@ -95,3 +95,25 @@ footer > *{
     margin-right: 0px;
     margin-bottom: 5px;
 }
+
+#discover{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+}
+
+#discover #side_bar{
+    grid-column: 1/2;
+
+}
+
+#discover #content{
+    grid-column: 2/3;
+
+}
+main .card{
+    text-align: center;
+    border: 2px solid #dadada;
+    background-color: rgb(176, 230, 225);
+    overflow: hidden;
+    margin: 1rem 0;
+}

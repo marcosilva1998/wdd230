@@ -7,7 +7,9 @@ header,footer,nav{
     background-color: #bbb;
     font-family: 'Roboto', sans-serif;
 }
-
+main {
+	display: block;
+ }
 main .card{
     border: 2px solid #dadada;
     background-color: rgb(176, 230, 225);
@@ -15,7 +17,7 @@ main .card{
     margin: 1rem 0;
 }
 
-main h2{
+main h2 ,h1{
     background-color: black;
     color: white;
     display: block;
@@ -52,7 +54,7 @@ header span{
 	background: none;
 	color: #000;
  	position: absolute;
-  top: 15px;
+    top: 15px;
 	right: 15px;
 }
 
@@ -103,3 +105,27 @@ header span{
 	font-size: 2rem;
 }
 
+.hero picture img{
+    width:100%;
+    height:auto;
+}
+
+.herolabel {
+	position: absolute;
+	top: 35%;
+	left: 0;
+	background: radial-gradient(#dfc324, #c0c2ca);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1rem;
+	box-shadow: 0 0 3rem #628aac;
+	opacity: 0.75;
+}
+
+.herolabel  p{
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 1rem;
+	font-family:"Great Vibes", serif;
+	white-space: nowrap;
+}
