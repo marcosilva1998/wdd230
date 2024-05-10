@@ -12,7 +12,7 @@ main {
  }
 main .card{
     border: 2px solid #dadada;
-    background-color: rgb(197, 221, 219);
+    background-color: rgb(239, 255, 254);
     overflow: hidden;
     margin: 1rem 0;
 }
