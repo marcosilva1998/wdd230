@@ -34,3 +34,30 @@ hamButton.addEventListener('click', () => {
 	navigation.classList.toggle('open');
 	hamButton.classList.toggle('open');
 });
+
+
+let sidebarMessage = document.querySelector('#last_visit_message');
+let currentDate = new Date();
+const msToDays = 84600000;
+let lastVisitDate = localStorage.getItem("lastVisitDate");
+
+function displaySidebarMessage() {
+    if (!lastVisitDate) {
+        sidebarMessage.innerText = "Welcome! Let us know if you have any questions.";
+    } else {
+        lastVisitDate = new Date(lastVisitDate);
+        const timeDiff = currentDate.getTime() - lastVisitDate.getTime();
+        const daysDiff = Math.floor(timeDiff / msToDays);
+
+        let message;
+        if (daysDiff < 1) {
+            message = "Back so soon! Awesome!";
+        } else {
+            message = "You last visited " + daysDiff + " " + (daysDiff === 1 ? "day" : "days") + " ago.";
+        }
+        sidebarMessage.innerText = message;
+    }
+    localStorage.setItem("lastVisitDate", currentDate);
+}
+
+displaySidebarMessage();

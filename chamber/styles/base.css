@@ -103,6 +103,10 @@ footer > *{
 
 #discover #side_bar{
     grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 
 }
 
@@ -116,4 +120,16 @@ main .card{
     background-color: rgb(176, 230, 225);
     overflow: hidden;
     margin: 1rem 0;
+    width: 90%; 
+
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#content img {
+    margin: 20px; /* Espacio entre las imágenes */
 }
