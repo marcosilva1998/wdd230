@@ -1,0 +1,45 @@
+
+form{
+    grid-column: 1/3;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="email"],
+.wf1 input[type="password"],
+.wf1 input[type="number"]
+{
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.wf1 input:required{
+    border-right:solid 8px red;
+}
+.wf1 input:required:valid{
+    border-right:solid 8px green;
+}
