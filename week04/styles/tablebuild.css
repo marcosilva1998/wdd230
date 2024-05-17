@@ -1,0 +1,31 @@
+:root {
+	--zebra: #f2f2f2;
+    --grey: #a19d9d;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+caption {
+    caption-side: top;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+
+th,tbody tr:nth-child(odd) {
+    background-color: var(--zebra);
+}
+thead tr > td:first-child {
+    background-color:var(--zebra);
+
+}
+thead tr > td:not(:first-child) {
+    background-color: var(--grey);
+}

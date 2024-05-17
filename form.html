@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco Silva - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development Marco Silva course assignment portal">
+    <meta name="author" content="Marco Silva">
+        
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+
+    <link rel="icon" href="favicon.ico">
+
+    
+    <meta property="og:title" content="Marco - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://republicafederaldechile.files.wordpress.com/2015/06/4134720786_505d8b7cbf_b1.jpg">
+    <meta property="og:url" content="https://marcosilva1998.github.io/wdd230/">
+    
+
+</head>
+
+<body>
+    <header>
+        <img src="./images/me.webp" alt="profile">
+        <span>Marco Silva</span>
+
+    </header>
+    <div id="mode">
+        🕶️
+    </div>
+    <button name="hambuger" id="menu"></button>
+    <nav class="navigation">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./chamber/index.html">Chamber</a></li>
+            <li><a href="#">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="formmessage"></div>
+
+        <form  method="get" action="record.html">
+            <fieldset>
+                <label>User Name *<input type="text" name="uName" id="uName" required></label>
+                <label>Password *<input type="password" name="pass" id="pass" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required></label>
+                <label>Repeat Password *<input type="password" name="pass2" id="pass2"  required></label>
+                <label>Email *<input type="email" name="email" id="email" title="Please enter a valid email address" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required></label>
+                <div id="rangevalue">0</div>
+                <label>Page Rating <input type="range" name="rating" id="rating" min="0" max="10" value="0" step="1" list="rangevalues"></label>
+                <datalist id="rangevalues">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+            </fieldset>
+            <input type="submit" value="Propose My Course">
+        </form>
+        
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Marco Silva, Argentina</p>
+        <p id="lastModified"></p>
+
+    </footer>
+    <script src="./scripts/from.js"></script>
+</body>
+</html> 
