@@ -39,7 +39,7 @@
             <li><a href="#">Join</a></li>
         </ul>
     </nav>
-    <main> 
+    <main>
         <div id="join">
             <form method="get" action="thankyou.html" class="wf1">
                 <h1>Members Registration Form</h1>
@@ -54,7 +54,7 @@
                             pattern=".+@.+\..+" required></label>
                     <label>Phone Number *<input type="tel" name="tel" id="tel" required></label>
                     <label>Organization's Name *<input type="text" name="oName" id="oName" required></label>
-                        
+
 
                     <div>Membership Level</div>
                     <label><input type="radio" name="membership" value="np" checked> NP Membership (Is for non profit
@@ -64,8 +64,9 @@
                     <label><input type="radio" name="membership" value="gold"> Gold Membership</label>
 
                     <div>Organization's Description</div>
-                    <textarea name="oDescription" id="oDescription"></textarea>
-                    <input type="hidden" id="time" value="">
+                    <label><textarea name="oDescription" id="oDescription"></textarea>
+                        <input type="hidden" id="time" value="">
+                    </label>
 
                 </fieldset>
                 <input type="submit" value="Send Form">
