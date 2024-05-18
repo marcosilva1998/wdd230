@@ -170,7 +170,7 @@ label {
 }
 
 input[type="submit"] {
-    background-color: #007bff;
+    background-color: #0159b6;
     color: white;
     border: none;
     border-radius: 5px;
@@ -179,7 +179,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #000307;
 }
 
 .wf1 input:required{
