@@ -37,6 +37,7 @@ hamButton.addEventListener('click', () => {
 
 
 let sidebarMessage = document.querySelector('#last_visit_message');
+if (sidebarMessage) {
 let currentDate = new Date();
 const msToDays = 84600000;
 let lastVisitDate = localStorage.getItem("lastVisitDate");
@@ -61,3 +62,4 @@ function displaySidebarMessage() {
 }
 
 displaySidebarMessage();
+}

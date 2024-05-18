@@ -96,7 +96,7 @@ footer > *{
     margin-bottom: 5px;
 }
 
-#discover{
+#discover,#join{
     display: grid;
     grid-template-columns: 0.5fr 1fr;
 }
@@ -114,13 +114,19 @@ footer > *{
     grid-column: 2/3;
 
 }
+
+#side_bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 main .card{
     text-align: center;
     border: 2px solid #dadada;
     background-color: rgb(176, 230, 225);
     overflow: hidden;
-    margin: 1rem 0;
-    width: 90%; 
+    margin: 30px auto 30px auto ;
+    width: 50%; 
 
 }
 
@@ -132,4 +138,66 @@ main .card{
 
 #content img {
     margin: 20px; 
+}
+
+
+:root{
+    --back-color:#eee;
+    --l-color:#0c0b0b;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="email"],
+.wf1 input[type="password"],
+.wf1 input[type="tel"],
+.wf1 input[type="number"]
+{
+    background-color: var(--back-color);
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: var(--l-color);
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.wf1 input:required{
+    border-right:solid 8px red;
+}
+.wf1 input:required:valid{
+    border-right:solid 8px green;
+}
+.wf1 {
+    grid-column: 1/2;
+}
+
+#benefits{
+    grid-column: 2/3;
+    text-align: center;
+
+}
+
+form div{
+    margin: 50px 0px 10px 0px;
 }
