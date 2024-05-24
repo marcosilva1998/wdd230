@@ -1,0 +1,23 @@
+{
+    "family_name": "Silva",
+    "move_in_date": "2017-05-22",
+    "num_family_members": 3,
+    "visited_by_bishopric": true,
+    "family_members": [
+        {
+            "name": "David Silva",
+            "gender": "male",
+            "birthdate": "1968-01-17"
+        },
+        {
+            "name": "Jenny Silva",
+            "gender": "female",
+            "birthdate": "1963-08-10"
+        },
+        {
+            "name": "Marco Silva",
+            "gender": "male",
+            "birthdate": "1998-11-06"
+        }
+    ]
+}

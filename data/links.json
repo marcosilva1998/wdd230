@@ -1,0 +1,90 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url": "week01/holygrail.html",
+                    "title": "CSS Layout Review"
+                },
+                {
+                    "url": "week01/media-query.html",
+                    "title": "Media Query"
+                },
+                {
+                    "url": "https://codepen.io/fdunowxr-the-looper/pen/jOdrWJr",
+                    "title": "J Pen"
+                }
+            ]
+        },        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url": "week02/design.html",
+                    "title": "Design"
+                },
+                {
+                    "url": "https://codepen.io/fdunowxr-the-looper/pen/JjVqaJZ",
+                    "title": "Hamburger"
+                },
+                {
+                    "url": "week02/bom.html",
+                    "title": "DOM Manipulation"
+                }
+            ]
+        },        {
+            "week": "Week 3",
+            "links": [
+                {
+                    "url": "week03/images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "week03/responsive-images.html",
+                    "title": "Responsive Images"
+                },
+                {
+                    "url": "week03/bom.html",
+                    "title": "BOM localStorage"
+                }
+            ]
+        },        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url":"https://codepen.io/fdunowxr-the-looper/pen/GRapZEQ",
+                    "title": "CSS Pseudo-Classes"
+                },
+                {
+                    "url": "week04/images/screenshot.png",
+                    "title": "CSS Combinators"
+                },
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "HTML Tables for Data Presentation"
+                },
+                {
+                    "url": "week04/Form-start/index.html",
+                    "title": "HTML Forms"
+                }
+            ]
+        },        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "https://codepen.io/fdunowxr-the-looper/pen/pomyPEV",
+                    "title": "CSS Pseudo Elements"
+                },
+                {
+                    "url": "https://codepen.io/fdunowxr-the-looper/pen/pomyPEV",
+                    "title": "JSON"
+                },
+                {
+                    "url": "",
+                    "title": "J Pen"
+                }
+            ]
+        }
+        
+    ]
+}
