@@ -1,6 +1,6 @@
 const baseURL = "https://marcosilva1998.github.io/wdd230/";
 const linksURL = "https://marcosilva1998.github.io/wdd230/data/links.json";
-const listContainer = document.querySelector('.list-container');
+let listContainer = document.querySelector('.list-container');
 async function getLinks() {
     const response = await fetch(linksURL);
     const data = await response.json();
