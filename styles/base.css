@@ -129,3 +129,6 @@ header span{
 	font-family:"Great Vibes", serif;
 	white-space: nowrap;
 }
+#list-container li {
+	padding: 10px; 
+  }
