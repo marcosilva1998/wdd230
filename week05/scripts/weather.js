@@ -3,16 +3,15 @@ const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
 
-const url ='https://api.openweathermap.org/data/2.5/onecall?lat=49.75&lon=6.64&units=imperial&appid=63f3714e75289b6b8b5648007b87a7c4'
-const url2='https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04&exclude=hourly,daily&appid=63f3714e75289b6b8b5648007b87a7c4'
+const url ='https://api.openweathermap.org/data/2.5/weather?lat=49.75&lon=6.64&units=imperial&appid=c192a3206cec2928b6002659ccdaecfc'
 
 async function apiFetch() {
     try {
         const response = await fetch(url);
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
-            //displayWeather(data);
+            //console.log(data);
+            displayWeather(data);
         }
         else {
             throw Error(await response.text());
