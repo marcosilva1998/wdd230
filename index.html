@@ -7,18 +7,19 @@
     <title>Marco Silva - WDD 230 - Web Frontend Development</title>
     <meta name="description" content="WDD 230 - Web Frontend Development Marco Silva course assignment portal">
     <meta name="author" content="Marco Silva">
-        
+
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
 
-    
+
     <meta property="og:title" content="Marco - WDD 230 - Web Frontend Development">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://republicafederaldechile.files.wordpress.com/2015/06/4134720786_505d8b7cbf_b1.jpg">
+    <meta property="og:image"
+        content="https://republicafederaldechile.files.wordpress.com/2015/06/4134720786_505d8b7cbf_b1.jpg">
     <meta property="og:url" content="https://marcosilva1998.github.io/wdd230/">
-    
+
 
 </head>
 
@@ -53,21 +54,30 @@
             </div>
         </div>
         <h1>WDD 230: Web Frontend Development</h1>
-            <section class="card">
-                <h2>Learning Activities</h2>
-                <ul id="list-container">
-                    
-                  
-                </ul>
+        <section class="card">
+            <h2>Learning Activities</h2>
+            <ul id="list-container">
 
-            </section>
-            <section class="card">
-                <h2>Information</h2>
-                <p>Weather: </p>
-                <p><span>Number of Visits: </span><span class="visits"></span></p>
-            </section>
 
-            <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52343.08435772354!2d-57.994369728369165!3d-34.92043086955792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e62b1f0085a1%3A0xbcfc44f0547312e3!2sLa%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1715306628523!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+            </ul>
+
+        </section>
+        <section class="card">
+            <h2>Information</h2>
+            <div id="weather">
+                <p>Weather: <span id="current-temp"></span> </p>
+                <figure>
+                    <img id="weather-icon" sec="" alt="">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+            <p><span>Number of Visits: </span><span class="visits"></span></p>
+        </section>
+
+        <iframe title="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52343.08435772354!2d-57.994369728369165!3d-34.92043086955792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e62b1f0085a1%3A0xbcfc44f0547312e3!2sLa%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1715306628523!5m2!1ses-419!2sar"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
 
     <footer>
@@ -77,5 +87,7 @@
     </footer>
     <script src="./scripts/getDates.js"></script>
     <script src="./scripts/links.js"></script>
+    <script src="./scripts/weather.js"></script>
 </body>
-</html> 
+
+</html>
