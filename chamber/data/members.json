@@ -14,7 +14,7 @@
       "name": "Creative Minds Studio",
       "address": "456 Creative Avenue, La Plata, Argentina",
       "phone": "+0987654321",
-      "website": "../images/icon2.png",
+      "website": "https://marcosilva1998.github.io/wdd230/chamber/images/icon2.png",
       "icon": "creativeminds.png",
       "membershipLevel": "silver",
       "description": "Innovative company in the creative and design sector.",
@@ -25,7 +25,7 @@
       "address": "789 Business Street, La Plata, Argentina",
       "phone": "+1122334455",
       "website": "https://www.consultingwizards.com",
-      "icon": "consultingwizards.png",
+      "icon": "https://marcosilva1998.github.io/wdd230/chamber/images/icon3.png",
       "membershipLevel": "bronze",
       "description": "Experts in consulting and business advisory services.",
       "email": "inquiries@consultingwizards.com"
@@ -35,7 +35,7 @@
       "address": "101 Renewable Road, La Plata, Argentina",
       "phone": "+6677889900",
       "website": "https://www.greenenergyinnovators.com",
-      "icon": "greenenergy.png",
+      "icon": "https://marcosilva1998.github.io/wdd230/chamber/images/icon4.png",
       "membershipLevel": "gold",
       "description": "Pioneers in renewable energy solutions.",
       "email": "energy@greenenergyinnovators.com"
@@ -45,7 +45,7 @@
       "address": "202 Money Avenue, La Plata, Argentina",
       "phone": "+5544332211",
       "website": "https://www.financegurus.com",
-      "icon": "financegurus.png",
+      "icon": "https://marcosilva1998.github.io/wdd230/chamber/images/icon5.png",
       "membershipLevel": "silver",
       "description": "Leaders in financial services and accounting.",
       "email": "service@financegurus.com"
@@ -55,7 +55,7 @@
       "address": "303 Tech Street, La Plata, Argentina",
       "phone": "+4433221100",
       "website": "https://www.customcodecreators.com",
-      "icon": "customcode.png",
+      "icon": "https://marcosilva1998.github.io/wdd230/chamber/images/icon6.png",
       "membershipLevel": "bronze",
       "description": "Experts in custom software development.",
       "email": "development@customcodecreators.com"
@@ -65,7 +65,7 @@
       "address": "404 Transport Avenue, La Plata, Argentina",
       "phone": "+9988776655",
       "website": "https://www.logisticsmasters.com",
-      "icon": "logisticsmasters.png",
+      "icon": "https://marcosilva1998.github.io/wdd230/chamber/images/icon7.png",
       "membershipLevel": "gold",
       "description": "Leaders in logistics and transportation solutions.",
       "email": "logistics@logisticsmasters.com"
@@ -75,7 +75,7 @@
       "address": "505 Unity Street, La Plata, Argentina",
       "phone": "+7766554433",
       "website": "https://www.communityheroes.org",
-      "icon": "communityheroes.png",
+      "icon": "https://marcosilva1998.github.io/wdd230/chamber/images/icon8.png",
       "membershipLevel": "np",
       "description": "Nonprofit organization focused on community development.",
       "email": "contact@communityheroes.org"
