@@ -7,7 +7,7 @@ async function getMembersData(url) {
   if (response.ok) {
 
     const data = await response.json();
-
+    console.log(data.members)
     displayMembers(data.members);
   }
 }
@@ -36,11 +36,11 @@ const displayMembers = (members) => {
     email.textContent = `${member.email}`;
 
 
-    icon.setAttribute('src', member.imageurl);
+    icon.setAttribute('src', member.icon);
     icon.setAttribute('alt', `Icon of ${member.name}`); 
     icon.setAttribute('loading', 'lazy');
-    icon.setAttribute('width', '340');
-    icon.setAttribute('height', '440');
+    icon.setAttribute('width', '100px');
+    icon.setAttribute('height', '100px');
 
     card.appendChild(name); 
     card.appendChild(icon);
