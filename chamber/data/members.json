@@ -1,0 +1,82 @@
+[
+    {
+      "name": "Tech Titans Inc.",
+      "address": "123 Innovation Street, La Plata, Argentina",
+      "phone": "+1234567890",
+      "website": "https://www.techtitans.com",
+      "icon": "techtitans.png",
+      "membershipLevel": "gold",
+      "description": "Leading provider of cutting-edge technology solutions.",
+      "email": "contact@techtitans.com"
+    },
+    {
+      "name": "Creative Minds Studio",
+      "address": "456 Creative Avenue, La Plata, Argentina",
+      "phone": "+0987654321",
+      "website": "https://www.creativemindsstudio.com",
+      "icon": "creativeminds.png",
+      "membershipLevel": "silver",
+      "description": "Innovative company in the creative and design sector.",
+      "email": "info@creativemindsstudio.com"
+    },
+    {
+      "name": "Consulting Wizards Ltd.",
+      "address": "789 Business Street, La Plata, Argentina",
+      "phone": "+1122334455",
+      "website": "https://www.consultingwizards.com",
+      "icon": "consultingwizards.png",
+      "membershipLevel": "bronze",
+      "description": "Experts in consulting and business advisory services.",
+      "email": "inquiries@consultingwizards.com"
+    },
+    {
+      "name": "Green Energy Innovators",
+      "address": "101 Renewable Road, La Plata, Argentina",
+      "phone": "+6677889900",
+      "website": "https://www.greenenergyinnovators.com",
+      "icon": "greenenergy.png",
+      "membershipLevel": "gold",
+      "description": "Pioneers in renewable energy solutions.",
+      "email": "energy@greenenergyinnovators.com"
+    },
+    {
+      "name": "Finance Gurus Inc.",
+      "address": "202 Money Avenue, La Plata, Argentina",
+      "phone": "+5544332211",
+      "website": "https://www.financegurus.com",
+      "icon": "financegurus.png",
+      "membershipLevel": "silver",
+      "description": "Leaders in financial services and accounting.",
+      "email": "service@financegurus.com"
+    },
+    {
+      "name": "Custom Code Creators",
+      "address": "303 Tech Street, La Plata, Argentina",
+      "phone": "+4433221100",
+      "website": "https://www.customcodecreators.com",
+      "icon": "customcode.png",
+      "membershipLevel": "bronze",
+      "description": "Experts in custom software development.",
+      "email": "development@customcodecreators.com"
+    },
+    {
+      "name": "Logistics Masters",
+      "address": "404 Transport Avenue, La Plata, Argentina",
+      "phone": "+9988776655",
+      "website": "https://www.logisticsmasters.com",
+      "icon": "logisticsmasters.png",
+      "membershipLevel": "gold",
+      "description": "Leaders in logistics and transportation solutions.",
+      "email": "logistics@logisticsmasters.com"
+    },
+    {
+      "name": "Community Heroes Nonprofit",
+      "address": "505 Unity Street, La Plata, Argentina",
+      "phone": "+7766554433",
+      "website": "https://www.communityheroes.org",
+      "icon": "communityheroes.png",
+      "membershipLevel": "np",
+      "description": "Nonprofit organization focused on community development.",
+      "email": "contact@communityheroes.org"
+    }
+  ]
