@@ -14,8 +14,8 @@
       "name": "Creative Minds Studio",
       "address": "456 Creative Avenue, La Plata, Argentina",
       "phone": "+0987654321",
-      "website": "https://marcosilva1998.github.io/wdd230/chamber/images/icon2.png",
-      "icon": "creativeminds.png",
+      "website": "https://www.creativemindsstudio.com",
+      "icon":  "https://marcosilva1998.github.io/wdd230/chamber/images/icon2.png",
       "membershipLevel": "silver",
       "description": "Innovative company in the creative and design sector.",
       "email": "info@creativemindsstudio.com"
