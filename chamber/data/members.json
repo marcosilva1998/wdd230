@@ -1,4 +1,5 @@
-[
+{
+  "members": [
     {
       "name": "Tech Titans Inc.",
       "address": "123 Innovation Street, La Plata, Argentina",
@@ -80,3 +81,4 @@
       "email": "contact@communityheroes.org"
     }
   ]
+}
