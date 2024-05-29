@@ -203,13 +203,13 @@ form div{
     margin: 50px 0px 10px 0px;
 }
 
-#members_cards {
+.members_cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     text-align: center;   
 }
 
-#members_cards .card{
+.members_cards .card{
 
     width: 90%; 
     min-width:200px
@@ -217,4 +217,32 @@ form div{
 }
 .membership-level {
     text-transform: capitalize;
+}
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+
+.list section > * {
+	margin: 0 1rem;
+}
+
+.list section img {
+	display: none; 
+}
+
+.list section h3 {
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+.list section:nth-child(even) {
+	background-color: #bed;
 }
