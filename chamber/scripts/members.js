@@ -17,12 +17,12 @@ const displayMembers = (members) => {
 
     let name = document.createElement('h1');
     let address = document.createElement('h2');
-    let phone = document.createElement('h2');
-    let website = document.createElement('h2');
+    let phone = document.createElement('h3');
+    let website = document.createElement('h3');
     let icon = document.createElement('img'); 
-    let membershipLevel = document.createElement('h2');
-    let description = document.createElement('h2');
-    let email = document.createElement('h2');
+    let membershipLevel = document.createElement('h3');
+    let description = document.createElement('h3');
+    let email = document.createElement('h3');
     
 
 
