@@ -44,4 +44,19 @@ footer{
 footer > *{
     margin-right: auto;
 }
+
+#discover{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+}
+
+
+#discover #side_bar {
+    grid-column: 1/2;
+}
+
+#discover #content {
+    grid-column: 2/3;
+
+}
 }
