@@ -34,8 +34,10 @@ function displaySpotlightAdvertisements(data) {
             <h2>${member.name}</h2>
             <img src="${member.icon}" alt="${member.name}" width=100 height=100 >
             <p>${member.description}</p>
-            <a href="${member.website}" target="_blank">Visit Website</a>
+            <a href="#" target="_blank">Visit Website</a>
         `;
+        //<a href="${member.website}" target="_blank">Visit Website</a>
+
         spotlightContainer.appendChild(adElement);
     }
 }
