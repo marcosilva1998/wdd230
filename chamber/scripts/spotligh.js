@@ -18,7 +18,7 @@ async function apiFetch3() {
 apiFetch3()
 function displaySpotlightAdvertisements(data) {
     const spotlightContainer = document.querySelector("#spotlight-container ");
-    spotlightContainer.innerHTML = ""; // Clear existing content
+    spotlightContainer.innerHTML = ""; 
 
     const spotlightMembers = data.members.filter(member => member.membershipLevel === "silver" || member.membershipLevel === "gold");
 
