@@ -7,7 +7,6 @@ async function getMembersData(url) {
   if (response.ok) {
 
     const data = await response.json();
-    console.log(data.members)
     displayMembers(data.members);
   }
 }
@@ -16,14 +15,14 @@ const displayMembers = (members) => {
   members.forEach((member) => {
     let card = document.createElement('section');
 
-    let name = document.createElement('h2');
-    let address = document.createElement('h4');
-    let phone = document.createElement('h4');
-    let website = document.createElement('h4');
+    let name = document.createElement('h1');
+    let address = document.createElement('h2');
+    let phone = document.createElement('h2');
+    let website = document.createElement('h2');
     let icon = document.createElement('img'); 
-    let membershipLevel = document.createElement('h4');
-    let description = document.createElement('h4');
-    let email = document.createElement('h4');
+    let membershipLevel = document.createElement('h2');
+    let description = document.createElement('h2');
+    let email = document.createElement('h2');
     
 
 

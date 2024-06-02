@@ -47,14 +47,42 @@
 
             <section class="events_card">
                 <h3>Current events</h3>
+                <div id="meetGreetBanner" class="card">
+                    <button id="closeBanner">❌</button>
+                    <p>Join us for the Chamber of Commerce Meet and Greet on Wednesday at 7:00 p.m.</p>
+
+                </div>
             </section>
 
             <section class="weather_card">
-                <h3>Weather</h3>
+
+                <h2>Information</h2>
+                <div id="weather" class="card">
+                    <p>Actual Weather: <span id="current-temp"></span> </p>
+                    <figure>
+                        <img id="weather-icon" sec="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+                <div class="card">
+                    <h3>Three Day Temperature Forecast</h3>
+                    <p>&nbsp;</p>
+                    <div id="forecast1">
+                        <p>Weather: <span></span> </p>
+                    </div>
+                    <div id="forecast2">
+                        <p>Weather: <span></span> </p>
+
+                    </div>
+                    <div id="forecast3">
+                        <p>Weather: <span></span> </p>
+                    </div>
+                </div>
             </section>
 
             <section class="spotlights_card">
                 <h3>Spotlights</h3>
+                <div id="spotlight-container"></div>
             </section>
 
         </div>
@@ -77,6 +105,12 @@
 
     </footer>
     <script src="./scripts/scripts.js"></script>
+    <script src="./scripts/weather.js"></script>
+    <script src="./scripts/weather_forecast.js"></script>
+    <script src="./scripts/spotligh.js"></script>
+    <script src="./scripts/banner.js"></script>
+
+
 </body>
 
 </html>
