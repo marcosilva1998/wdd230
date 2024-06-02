@@ -28,6 +28,8 @@ const displayWeather = (data) => {
     let desc = data.weather[0].description;
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
+    weatherIcon.setAttribute('width', 50);
+    weatherIcon.setAttribute('height', 50);
     currentTemp.innerHTML = `${data.main.temp}&deg;F - ${desc}`;
  
 }

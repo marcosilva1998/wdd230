@@ -72,11 +72,6 @@ header {
     content: "X";
 }
 
-#hero_img {
-    width: 100%;
-    height: 450px;
-}
-
 
 #cards {
     display: flex;
