@@ -15,7 +15,7 @@ const displayMembers = (members) => {
   members.forEach((member) => {
     let card = document.createElement('section');
 
-    let name = document.createElement('h1');
+    let name = document.createElement('h2');
     let address = document.createElement('h2');
     let phone = document.createElement('h3');
     let website = document.createElement('h3');
