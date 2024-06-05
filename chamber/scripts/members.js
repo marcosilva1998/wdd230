@@ -16,7 +16,7 @@ const displayMembers = (members) => {
     let card = document.createElement('section');
 
     let name = document.createElement('h2');
-    let address = document.createElement('h2');
+    let address = document.createElement('h3');
     let phone = document.createElement('h3');
     let website = document.createElement('h3');
     let icon = document.createElement('img'); 
