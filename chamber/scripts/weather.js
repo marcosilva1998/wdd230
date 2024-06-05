@@ -30,6 +30,7 @@ const displayWeather = (data) => {
     weatherIcon.setAttribute('alt', desc);
     weatherIcon.setAttribute('width', 50);
     weatherIcon.setAttribute('height', 50);
+    weatherIcon.setAttribute('loading', 'lazy');
     currentTemp.innerHTML = `${data.main.temp}&deg;F - ${desc}`;
  
 }

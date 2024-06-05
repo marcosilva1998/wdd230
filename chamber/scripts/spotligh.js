@@ -32,7 +32,7 @@ function displaySpotlightAdvertisements(data) {
         adElement.classList.add("card");
         adElement.innerHTML = `
             <h2>${member.name}</h2>
-            <img src="${member.icon}" alt="${member.name}" width=100 height=100 >
+            <img src="${member.icon}" alt="${member.name}" width=100 height=100 loading="lazy" >
             <p>${member.description}</p>
             <a href="#" target="_blank">Visit Website</a>
         `;
