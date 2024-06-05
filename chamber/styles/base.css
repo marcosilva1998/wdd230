@@ -282,3 +282,6 @@ form div {
     width: 100%;
     height: auto; 
 }
+.navigation ul li a:hover {
+    color: rgb(255, 252, 50); 
+}
